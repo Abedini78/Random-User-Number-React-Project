@@ -1,0 +1,22 @@
+.BoxInput{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BoxInput>button{
+    background-color: rgb(156, 112, 198);
+    color:white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.acc{
+     transform: scale(1.05);
+}
+.inacc{
+    .acc{
+        transform: scale(1);
+   }
+}

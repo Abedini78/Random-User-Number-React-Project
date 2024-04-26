@@ -1,0 +1,13 @@
+.BoxModal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: 1;
+}
+.BoxModal>img{
+    background-color: transparent;
+}

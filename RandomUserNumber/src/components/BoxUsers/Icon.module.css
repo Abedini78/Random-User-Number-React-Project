@@ -1,0 +1,16 @@
+.BoxIcon{
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.BoxIcon>i{
+    font-size: 27px;
+    color: rgb(89, 170, 89);
+}
+.BoxIcon:hover{
+    background-color:rgb(89, 170, 89);
+} 
+.BoxIcon:hover>i{
+    color:  white;
+} 
